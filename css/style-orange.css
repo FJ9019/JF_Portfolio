@@ -1,5 +1,4 @@
-
-/*==========================  STYLES  ==========================*/
+/*=================== STYLES GEN ===================*/
 
 body {
   background-color: #f5f5f5;
@@ -21,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: #0078ff;
+  color: #f0642d;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -31,7 +30,7 @@ a:hover {
 }
 
 .color-a {
-  color: #0078ff;
+  color: #f0642d;
 }
 
 .color-d {
@@ -52,7 +51,7 @@ a:hover {
 
 .box-shadow-a,
 .button:hover {
-  box-shadow: 0 0 0 4px #cde1f8;
+  box-shadow: 0 0 0 4px #faded3;
 }
 
 .display-5 {
@@ -82,7 +81,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: #f0642d;
 }
 
 .overlay-mf {
@@ -152,7 +151,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: #f0642d;
   margin: 0 auto;
 }
 
@@ -171,7 +170,7 @@ a:hover {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: #0078ff;
+  background-color: #f0642d;
   width: 100px;
   bottom: -12px;
 }
@@ -208,14 +207,14 @@ a:hover {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #0078ff;
+  box-shadow: 0 0 0 3px #f0642d;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
-  background-color: #0078ff;
+  background-color: #f0642d;
   color: #fff;
-  box-shadow: 0 0 0 3px #cde1f8;
+  box-shadow: 0 0 0 3px #faded3;
   transition: all 500ms ease;
 }
 
@@ -238,7 +237,7 @@ a:hover {
 }
 
 .list-ico span {
-  color: #0078ff;
+  color: #f0642d;
   margin-right: 10px;
 }
 
@@ -252,7 +251,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
+  box-shadow: 0 0 0 10px #f0642d;
   display: block;
 }
 
@@ -271,15 +270,15 @@ a:hover {
   width: 18px;
   height: 7px;
   margin: 5px 5px;
-  background: #cde1f8;
-  border: 0px solid #cde1f8;
+  background: #faded3;
+  border: 0px solid #faded3;
   display: block;
   transition: all 0.6s ease-in-out;
   cursor: pointer;
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-  background-color: #cde1f8;
+  background-color: #faded3;
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
@@ -299,7 +298,7 @@ a:hover {
   position: fixed;
   width: 42px;
   height: 42px;
-  background-color: #0078ff;
+  background-color: #f0642d;
   opacity: .7;
   font-size: 1.6rem;
   line-height: 1.5;
@@ -318,7 +317,7 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #0078ff;
+  background: #f0642d;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -356,7 +355,7 @@ a:hover {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #0078ff;
+  border-top: 6px solid #f0642d;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -388,7 +387,7 @@ a:hover {
   }
 }
 
-/*========================== NAVBAR ============================*/
+/*================= NAVBAR =================*/
 
 .navbar-b {
   transition: all .5s ease-in-out;
@@ -471,26 +470,26 @@ a:hover {
 }
 
 .navbar-b.navbar-reduce .nav-link {
-  color: #0078ff;
+  color: #f0642d;
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background-color: #0078ff;
+  background-color: #f0642d;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #0078ff;
+  color: #f0642d;
 }
 
 .navbar-b.navbar-reduce .show > .nav-link,
 .navbar-b.navbar-reduce .active > .nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
-  color: #0078ff;
+  color: #f0642d;
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
-  color: #0078ff;
+  color: #f0642d;
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
@@ -522,13 +521,13 @@ a:hover {
 }
 
 .navbar-b .dropdown-menu .dropdown-item:hover {
-  background-color: #0078ff;
+  background-color: #f0642d;
   color: #fff;
   transition: all 500ms ease;
 }
 
 .navbar-b .dropdown-menu .dropdown-item.active {
-  background-color: #0078ff;
+  background-color: #f0642d;
 }
 
 /* Hamburger Navbar */
@@ -586,7 +585,7 @@ a:hover {
   opacity: 0.9;
 }
 
-/*============================= INTRO =============================*/
+/*================== INTRO ==================*/
 
 .intro {
   height: 100vh;
@@ -640,22 +639,22 @@ a:hover {
 
 .intro-single .breadcrumb {
   background-color: transparent;
-  color: #0078ff;
+  color: #f0642d;
 }
 
 .intro-single .breadcrumb .breadcrumb-item:before {
-  color: #cde1f8;
+  color: #faded3;
 }
 
 .intro-single .breadcrumb .breadcrumb-item.active {
-  color: #cde1f8;
+  color: #faded3;
 }
 
 .intro-single .breadcrumb a {
   color: #fff;
 }
 
-/*========================= ABOUT ========================*/
+/*================ ABOUT ================*/
 
 .about-mf .box-shadow-full {
   padding-top: 4rem;
@@ -675,7 +674,7 @@ a:hover {
 }
 
 .skill-mf .progress {
-  background-color: #cde1f8;
+  background-color: #faded3;
   margin: .5rem 0 1.2rem 0;
   border-radius: 0;
   height: .7rem;
@@ -683,10 +682,10 @@ a:hover {
 
 .skill-mf .progress .progress-bar {
   height: .7rem;
-  background-color: #0078ff;
+  background-color: #f0642d;
 }
 
-/*=========================== SERVICES ===========================*/
+/*=================== SERVICES ===================*/
 
 .service-box {
   background-color: #fff;
@@ -698,8 +697,8 @@ a:hover {
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
-  background-color: #0078ff;
-  box-shadow: 0 0 0 10px #cde1f8;
+  background-color: #f0642d;
+  box-shadow: 0 0 0 10px #faded3;
 }
 
 .service-box .service-ico {
@@ -723,7 +722,7 @@ a:hover {
   color: #4e4e4e;
 }
 
-/*============================ COUNTER ===========================*/
+/*================= COUNTER =================*/
 
 .counter-box {
   color: #fff;
@@ -738,7 +737,7 @@ a:hover {
   height: 60px;
   width: 60px;
   line-height: 1.8;
-  box-shadow: 0 0 0 10px #cde1f8;
+  box-shadow: 0 0 0 10px #faded3;
 }
 
 .counter-num .counter {
@@ -746,7 +745,7 @@ a:hover {
   margin-bottom: 0;
 }
 
-/*========================== PORTFOLIO ==========================*/
+/*================== PORTFOLIO ==================*/
 
 .work-box {
   margin-bottom: 3rem;
@@ -779,17 +778,17 @@ a:hover {
 }
 
 .work-content .w-more .w-ctegory {
-  color: #0078ff;
+  color: #f0642d;
 }
 
 .work-content .w-like {
   font-size: 2.5rem;
-  color: #0078ff;
+  color: #f0642d;
   float: right;
 }
 
 .work-content .w-like a {
-  color: #0078ff;
+  color: #f0642d;
 }
 
 .work-content .w-like .num-like {
@@ -800,7 +799,7 @@ a:hover {
   font-size: 1.2rem;
 }
 
-/*======================= TESTIMONIALS ======================*/
+/*================= TESTIMONIALS =================*/
 
 .testimonials .owl-carousel .owl-item img {
   width: auto;
@@ -830,7 +829,7 @@ a:hover {
 
 .testimonial-box .comit {
   font-size: 2rem;
-  color: #0078ff;
+  color: #f0642d;
   background-color: #fff;
   width: 52px;
   height: 52px;
@@ -839,7 +838,6 @@ a:hover {
   border-radius: 50%;
   line-height: 1.6;
 }
-
 
 
 /* Comments */
@@ -869,7 +867,7 @@ a:hover {
 }
 
 .box-comments .list-comments a {
-  color: #0078ff;
+  color: #f0642d;
 }
 
 .box-comments .list-comments span {
@@ -886,7 +884,7 @@ a:hover {
 .widget-sidebar .sidebar-title {
   font-size: 1.6rem;
   font-weight: 600;
-  border-left: 5px solid #0078ff;
+  border-left: 5px solid #f0642d;
   padding-left: 15px;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
@@ -903,7 +901,7 @@ a:hover {
   width: 10px;
   height: 1px;
   left: 0;
-  background-color: #0078ff;
+  background-color: #f0642d;
   top: 20px;
 }
 
@@ -914,8 +912,8 @@ a:hover {
 }
 
 .sidebar-search .btn-search {
-  background-color: #0078ff;
-  border-color: #0078ff;
+  background-color: #f0642d;
+  border-color: #f0642d;
   border-radius: 0;
   padding-left: 20px;
   padding-right: 20px;
@@ -923,7 +921,7 @@ a:hover {
 
 .widget-tags ul li {
   display: inline-block;
-  background-color: #0078ff;
+  background-color: #f0642d;
   padding: .2rem .6rem;
   margin-bottom: .5rem;
   border-radius: 15px;
@@ -933,7 +931,7 @@ a:hover {
   color: #fff;
 }
 
-/*====================== CONTACT ======================*/
+/*================== CONTACT ==================*/
 
 .footer-paralax {
   padding: 4rem 0 0 0;
@@ -943,7 +941,7 @@ a:hover {
   margin-top: 4rem;
 }
 
-/*===================== FOOTER ====================*/
+/*================= FOOTER =================*/
 
 footer {
   text-align: center;
@@ -963,11 +961,11 @@ footer .credits a {
   color: #fff;
 }
 
-/*==================== CONTACT FORM ====================*/
+/*================ CONTACT FORM ================*/
 
 #sendmessage {
-  color: #0078ff;
-  border: 1px solid #0078ff;
+  color: #f0642d;
+  border: 1px solid #f0642d;
   display: none;
   text-align: center;
   padding: 15px;
@@ -999,7 +997,7 @@ footer .credits a {
   font-size: 13px;
 }
 
-/*=================== BUTTON ===================*/
+/*================ BUTTON ================*/
 
 .button {
   display: inline-block;
@@ -1022,15 +1020,15 @@ footer .credits a {
 }
 
 .button:hover {
-  background-color: #0062d3;
+  background-color: #db4a10;
   color: #fff;
   transition: all 500ms ease;
 }
 
 .button-a {
-  background-color: #0078ff;
+  background-color: #f0642d;
   color: #fff;
-  border-color: #cde1f8;
+  border-color: #faded3;
 }
 
 .button-big {

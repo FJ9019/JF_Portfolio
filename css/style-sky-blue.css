@@ -1,5 +1,7 @@
 
-/*==========================  STYLES  ==========================*/
+/*======================================
+//--//-->   STYLES GENERALES
+======================================*/
 
 body {
   background-color: #f5f5f5;
@@ -21,7 +23,7 @@ a {
 }
 
 a:hover {
-  color: #0078ff;
+  color: #48abec;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -31,7 +33,7 @@ a:hover {
 }
 
 .color-a {
-  color: #0078ff;
+  color: #48abec;
 }
 
 .color-d {
@@ -52,7 +54,7 @@ a:hover {
 
 .box-shadow-a,
 .button:hover {
-  box-shadow: 0 0 0 4px #cde1f8;
+  box-shadow: 0 0 0 4px #d7ebf8;
 }
 
 .display-5 {
@@ -82,7 +84,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: #48abec;
 }
 
 .overlay-mf {
@@ -111,7 +113,7 @@ a:hover {
   vertical-align: middle;
 }
 
-/* Sections */
+/*--/ Sections /--*/
 
 .sect-4 {
   padding: 4rem 0;
@@ -125,7 +127,7 @@ a:hover {
   margin-top: 4rem;
 }
 
-/* Title s */
+/*--/ Title s /--*/
 
 .title-s {
   font-weight: 600;
@@ -133,7 +135,7 @@ a:hover {
   font-size: 1.1rem;
 }
 
-/* Title A */
+/*--/ Title A /--*/
 
 .title-box {
   margin-bottom: 4rem;
@@ -152,11 +154,11 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: #48abec;
   margin: 0 auto;
 }
 
-/* Title Left */
+/*--/ Title Left /--*/
 
 .title-box-2 {
   margin-bottom: 3rem;
@@ -171,12 +173,12 @@ a:hover {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: #0078ff;
+  background-color: #48abec;
   width: 100px;
   bottom: -12px;
 }
 
-/* Box */
+/*------/ Box /------*/
 
 .box-pl2 {
   padding-left: 2rem;
@@ -191,7 +193,7 @@ a:hover {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* Socials */
+/*------/ Socials /------*/
 
 .socials {
   padding: 1.5rem 0;
@@ -208,18 +210,18 @@ a:hover {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #0078ff;
+  box-shadow: 0 0 0 3px #48abec;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
-  background-color: #0078ff;
+  background-color: #48abec;
   color: #fff;
-  box-shadow: 0 0 0 3px #cde1f8;
+  box-shadow: 0 0 0 3px #d7ebf8;
   transition: all 500ms ease;
 }
 
-/* Ul resect */
+/*------/ Ul resect /------*/
 
 .ul-resect,
 .socials ul,
@@ -238,11 +240,11 @@ a:hover {
 }
 
 .list-ico span {
-  color: #0078ff;
+  color: #48abec;
   margin-right: 10px;
 }
 
-/* Ico Circle */
+/*------/ Ico Circle /------*/
 
 .ico-circle {
   height: 100px;
@@ -252,11 +254,11 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
+  box-shadow: 0 0 0 10px #48abec;
   display: block;
 }
 
-/* Owl Carousel */
+/*------/ Owl Carousel /------*/
 
 .owl-theme .owl-dots {
   text-align: center;
@@ -271,15 +273,15 @@ a:hover {
   width: 18px;
   height: 7px;
   margin: 5px 5px;
-  background: #cde1f8;
-  border: 0px solid #cde1f8;
+  background: #d7ebf8;
+  border: 0px solid #d7ebf8;
   display: block;
   transition: all 0.6s ease-in-out;
   cursor: pointer;
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-  background-color: #cde1f8;
+  background-color: #d7ebf8;
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
@@ -287,7 +289,7 @@ a:hover {
   width: 25px;
 }
 
-/* Scrolltop s */
+/*--/ Scrolltop s /--*/
 
 .scrolltop-mf {
   position: relative;
@@ -299,7 +301,7 @@ a:hover {
   position: fixed;
   width: 42px;
   height: 42px;
-  background-color: #0078ff;
+  background-color: #48abec;
   opacity: .7;
   font-size: 1.6rem;
   line-height: 1.5;
@@ -318,7 +320,7 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #0078ff;
+  background: #48abec;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -356,7 +358,7 @@ a:hover {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #0078ff;
+  border-top: 6px solid #48abec;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -388,7 +390,9 @@ a:hover {
   }
 }
 
-/*========================== NAVBAR ============================*/
+/*======================================
+//--//-->   NAVBAR
+======================================*/
 
 .navbar-b {
   transition: all .5s ease-in-out;
@@ -471,26 +475,26 @@ a:hover {
 }
 
 .navbar-b.navbar-reduce .nav-link {
-  color: #0078ff;
+  color: #48abec;
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background-color: #0078ff;
+  background-color: #48abec;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #0078ff;
+  color: #48abec;
 }
 
 .navbar-b.navbar-reduce .show > .nav-link,
 .navbar-b.navbar-reduce .active > .nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
-  color: #0078ff;
+  color: #48abec;
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
-  color: #0078ff;
+  color: #48abec;
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
@@ -522,16 +526,16 @@ a:hover {
 }
 
 .navbar-b .dropdown-menu .dropdown-item:hover {
-  background-color: #0078ff;
+  background-color: #48abec;
   color: #fff;
   transition: all 500ms ease;
 }
 
 .navbar-b .dropdown-menu .dropdown-item.active {
-  background-color: #0078ff;
+  background-color: #48abec;
 }
 
-/* Hamburger Navbar */
+/*--/ Hamburger Navbar /--*/
 
 .navbar-toggler {
   position: relative;
@@ -586,7 +590,9 @@ a:hover {
   opacity: 0.9;
 }
 
-/*============================= INTRO =============================*/
+/*======================================
+//--//-->   INTRO
+======================================*/
 
 .intro {
   height: 100vh;
@@ -640,22 +646,24 @@ a:hover {
 
 .intro-single .breadcrumb {
   background-color: transparent;
-  color: #0078ff;
+  color: #48abec;
 }
 
 .intro-single .breadcrumb .breadcrumb-item:before {
-  color: #cde1f8;
+  color: #d7ebf8;
 }
 
 .intro-single .breadcrumb .breadcrumb-item.active {
-  color: #cde1f8;
+  color: #d7ebf8;
 }
 
 .intro-single .breadcrumb a {
   color: #fff;
 }
 
-/*========================= ABOUT ========================*/
+/*======================================
+//--//-->   ABOUT
+======================================*/
 
 .about-mf .box-shadow-full {
   padding-top: 4rem;
@@ -675,7 +683,7 @@ a:hover {
 }
 
 .skill-mf .progress {
-  background-color: #cde1f8;
+  background-color: #d7ebf8;
   margin: .5rem 0 1.2rem 0;
   border-radius: 0;
   height: .7rem;
@@ -683,10 +691,12 @@ a:hover {
 
 .skill-mf .progress .progress-bar {
   height: .7rem;
-  background-color: #0078ff;
+  background-color: #48abec;
 }
 
-/*=========================== SERVICES ===========================*/
+/*======================================
+//--//-->   SERVICES
+======================================*/
 
 .service-box {
   background-color: #fff;
@@ -698,8 +708,8 @@ a:hover {
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
-  background-color: #0078ff;
-  box-shadow: 0 0 0 10px #cde1f8;
+  background-color: #48abec;
+  box-shadow: 0 0 0 10px #d7ebf8;
 }
 
 .service-box .service-ico {
@@ -723,7 +733,9 @@ a:hover {
   color: #4e4e4e;
 }
 
-/*============================ COUNTER ===========================*/
+/*======================================
+//--//-->   COUNTER
+======================================*/
 
 .counter-box {
   color: #fff;
@@ -738,7 +750,7 @@ a:hover {
   height: 60px;
   width: 60px;
   line-height: 1.8;
-  box-shadow: 0 0 0 10px #cde1f8;
+  box-shadow: 0 0 0 10px #d7ebf8;
 }
 
 .counter-num .counter {
@@ -746,7 +758,9 @@ a:hover {
   margin-bottom: 0;
 }
 
-/*========================== PORTFOLIO ==========================*/
+/*======================================
+//--//-->   PORTFOLIO
+======================================*/
 
 .work-box {
   margin-bottom: 3rem;
@@ -779,17 +793,17 @@ a:hover {
 }
 
 .work-content .w-more .w-ctegory {
-  color: #0078ff;
+  color: #48abec;
 }
 
 .work-content .w-like {
   font-size: 2.5rem;
-  color: #0078ff;
+  color: #48abec;
   float: right;
 }
 
 .work-content .w-like a {
-  color: #0078ff;
+  color: #48abec;
 }
 
 .work-content .w-like .num-like {
@@ -800,7 +814,9 @@ a:hover {
   font-size: 1.2rem;
 }
 
-/*======================= TESTIMONIALS ======================*/
+/*======================================
+//--//-->   TESTIMONIALS
+======================================*/
 
 .testimonials .owl-carousel .owl-item img {
   width: auto;
@@ -830,7 +846,7 @@ a:hover {
 
 .testimonial-box .comit {
   font-size: 2rem;
-  color: #0078ff;
+  color: #48abec;
   background-color: #fff;
   width: 52px;
   height: 52px;
@@ -842,7 +858,7 @@ a:hover {
 
 
 
-/* Comments */
+/*------/ Comments /------*/
 
 .box-comments .list-comments li {
   padding-bottom: 40px;
@@ -869,7 +885,7 @@ a:hover {
 }
 
 .box-comments .list-comments a {
-  color: #0078ff;
+  color: #48abec;
 }
 
 .box-comments .list-comments span {
@@ -881,12 +897,12 @@ a:hover {
   margin-left: 40px;
 }
 
-/* Sidebar */
+/*------/ Sidebar /------*/
 
 .widget-sidebar .sidebar-title {
   font-size: 1.6rem;
   font-weight: 600;
-  border-left: 5px solid #0078ff;
+  border-left: 5px solid #48abec;
   padding-left: 15px;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
@@ -903,7 +919,7 @@ a:hover {
   width: 10px;
   height: 1px;
   left: 0;
-  background-color: #0078ff;
+  background-color: #48abec;
   top: 20px;
 }
 
@@ -914,8 +930,8 @@ a:hover {
 }
 
 .sidebar-search .btn-search {
-  background-color: #0078ff;
-  border-color: #0078ff;
+  background-color: #48abec;
+  border-color: #48abec;
   border-radius: 0;
   padding-left: 20px;
   padding-right: 20px;
@@ -923,7 +939,7 @@ a:hover {
 
 .widget-tags ul li {
   display: inline-block;
-  background-color: #0078ff;
+  background-color: #48abec;
   padding: .2rem .6rem;
   margin-bottom: .5rem;
   border-radius: 15px;
@@ -933,7 +949,9 @@ a:hover {
   color: #fff;
 }
 
-/*====================== CONTACT ======================*/
+/*======================================
+//--//-->   CONTACT
+======================================*/
 
 .footer-paralax {
   padding: 4rem 0 0 0;
@@ -943,7 +961,9 @@ a:hover {
   margin-top: 4rem;
 }
 
-/*===================== FOOTER ====================*/
+/*======================================
+//--//-->   FOOTER
+======================================*/
 
 footer {
   text-align: center;
@@ -963,11 +983,13 @@ footer .credits a {
   color: #fff;
 }
 
-/*==================== CONTACT FORM ====================*/
+/*======================================
+//--//-->   CONtaCT FORM
+======================================*/
 
 #sendmessage {
-  color: #0078ff;
-  border: 1px solid #0078ff;
+  color: #48abec;
+  border: 1px solid #48abec;
   display: none;
   text-align: center;
   padding: 15px;
@@ -999,7 +1021,9 @@ footer .credits a {
   font-size: 13px;
 }
 
-/*=================== BUTTON ===================*/
+/*======================================
+//--//-->   BUTTON
+======================================*/
 
 .button {
   display: inline-block;
@@ -1022,15 +1046,15 @@ footer .credits a {
 }
 
 .button:hover {
-  background-color: #0062d3;
+  background-color: #1c81c4;
   color: #fff;
   transition: all 500ms ease;
 }
 
 .button-a {
-  background-color: #0078ff;
+  background-color: #48abec;
   color: #fff;
-  border-color: #cde1f8;
+  border-color: #d7ebf8;
 }
 
 .button-big {
